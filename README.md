@@ -10,6 +10,8 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
 - Note3: Exponential Coordinate of Rigid Body Configuration
 ...
 
+> Github Markdown preview has very poor support for LaTeX, so it is recommended to clone and view the notes locally (e.g. Typora).
+
 ## Materials
 - [SDM5008 (F24) Advanced Control for Robotics](https://clearlab-sustech.github.io/ACR2024/)
     Official course website

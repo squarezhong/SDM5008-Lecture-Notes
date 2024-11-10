@@ -74,7 +74,7 @@ $\prescript{A}{}{v_{o_A}} = \prescript{A}{}{v_q}+\prescript{A}{}{\omega}\times (
 
 - $\omega=0$, pure translation
 
-​	$\hat{s}=\displaystyle\frac{v}{\|v\|},\ \dot{theta}=\|v\|,\ h=\infin,$ $q$ can bre arbitrary
+​	$\hat{s}=\displaystyle\frac{v}{\|v\|},\ \dot{\theta}=\|v\|,\ h=\infty,$ $q$ can bre arbitrary
 
 - $\omega \neq 0$
 
