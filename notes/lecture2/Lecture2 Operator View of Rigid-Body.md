@@ -105,7 +105,7 @@ $$
 $$
 
 
-Define $SE(3) = \{([\omega],v):[\omega]\in SO(3), v\in \mathbb{R}^3\}$
+Define $se(3) = \{([\omega],v):[\omega]\in so(3), v\in \mathbb{R}^3\}$
 
 Any $T\in SE(3)$ can be written as $T=\displaystyle e^{[\mathcal{S}]\theta}$
 
