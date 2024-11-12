@@ -88,7 +88,11 @@ Twist with a unit speed,
 $$
 \mathcal{V} = \hat{\mathcal{S}}\dot{\theta}
 $$
-$\hat{S} \leftrightarrow  (\hat{s},h,q), \dot{\theta}=1$
+$$
+\hat{S} \leftrightarrow  (\hat{s},h,q), \dot{\theta}=1
+$$
+
+
 
 
 
