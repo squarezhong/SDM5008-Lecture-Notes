@@ -12,6 +12,7 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
 - [Note3: Exponential Coordinate of Rigid Body Configuration](notes/lecture3/Lecture3%20Exponential%20Coordinate%20of%20Rigid%20Body.pdf)
 - [Note4: Instantaneous Velocity of Moving Frames](notes/lecture4/Lecture4%20Instantaneous%20Velocity%20of%20Moving%20Frames.pdf)
 - [Note5: Product of Exponential and Kinematics of Open Chain](notes/lecture5/Lecture5%20Product%20of%20Exponential%20and%20Kinematics%20of%20Open%20Chain.pdf)
+- [Note6: Velocity Kinematics-Geometric and Analytic Jacobian of Open Chain](notes/lecture6/Lecture6%20Velocity%20Kinematics-Geometric%20and%20Analytic%20Jacobian%20of%20Open%20Chain.pdf)
 - ...
 
 > Github Markdown preview has very poor support for LaTeX, so if you want to view and edit markdown file, it is recommended to clone and view the notes locally (e.g. Typora).
