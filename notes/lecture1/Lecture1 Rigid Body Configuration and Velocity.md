@@ -46,7 +46,7 @@ $T = (R,p)$
 
 $\prescript{A}{}{X_B} = [{Ad}_T] \triangleq \begin{bmatrix}R & 0 \\ [p]R & R \end{bmatrix}$
 
-## Geometric Aspect of Twis: Screw Motion
+## Geometric Aspect of Twist: Screw Motion
 
 ### Definition
 
