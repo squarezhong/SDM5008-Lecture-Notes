@@ -111,7 +111,7 @@ n is the reference point.
   $$
   
 
-### Spatial Internia
+### Spatial Inertia
 
 Spatial inertia $\mathcal{I}$ is given by
 $$
