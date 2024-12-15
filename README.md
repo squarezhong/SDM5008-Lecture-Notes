@@ -14,7 +14,7 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
 - [Note5: Product of Exponential and Kinematics of Open Chain](notes/lecture5/Lecture5%20Product%20of%20Exponential%20and%20Kinematics%20of%20Open%20Chain.pdf)
 - [Note6: Velocity Kinematics-Geometric and Analytic Jacobian of Open Chain](notes/lecture6/Lecture6%20Velocity%20Kinematics-Geometric%20and%20Analytic%20Jacobian%20of%20Open%20Chain.pdf)
 - [Note7: Rigid-Body Dynamics](notes/lecture7/Lecture7%20Rigid-Body%20Dynamics.pdf)
-- [Notes8: Mujoco Tutorial](notes/lecture8/Lecture8.pdf)
+- [Note8: Mujoco Tutorial](notes/lecture8/Lecture8.pdf)
 - [Note9: probability Review for Reinforcement Learning](notes/lecture9/lecture9.pdf)
 - ...
 
