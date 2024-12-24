@@ -1,4 +1,4 @@
-# Lecture10: **Markov Decision Process for Reinforcement Learning**
+# Lecture10: Markov Decision Process for Reinforcement Learning
 
 > Notes taken by [squarezhong](https://github.com/squarezhong)
 > Repo address: [squarezhong/SDM5008-Lecture-Notes](https://github.com/squarezhong/SDM5008-Lecture-Notes)
@@ -8,7 +8,8 @@
 ## From Classical Control to RL
 
 ### What control do?
-![](robot_control.png)
+
+![](_assets/robot_control.png)
 
 ### Comparison
 
@@ -105,6 +106,10 @@ $\text{MDP} = (S,\mathcal{A},\Gamma,r)$
 
 ### Notations
 
+![](_assets/notation1.png)
+
+![](_assets/notation2.png)
+
 ### Return
 
 Cumulative rewards over a trajectory, which may take several different forms.
@@ -149,8 +154,78 @@ By definition, we have the following deduction
 
 ### Bellman Equations
 
+> Bellman equation is a **necessary condition** for optimality associated with the mathematical optimization method known as dynamic programming. It writes the "value" of a decision problem at a certain point in time in terms of the payoff from some initial choices and the "value" of the **remaining decision problem** that results from those initial choices. [[source]](https://en.wikipedia.org/wiki/Bellman_equation)
 
+Infinite-horizon discounted return case
 
-## Simulations
+- $V_{\pi}(s)$
 
-Sampling
+![](_assets/bellman_V.png)
+
+- $Q_{\pi}(s,a)$
+
+![](_assets/bellman_Q.png)
+
+- Summary
+
+![](_assets/bellman_summary.png)
+
+## Sampling
+
+Use random samping to
+
+- simulate a MC or MDP
+- evaluate high-dim expectations in RL
+
+### Monte Carlo Method
+
+#### Intrinsic
+
+- $X_1 ,X_2, ...,X_n$ i.i.d random vectors
+- $E(X_i)=\mu_X,\ Cov(X_i)=Q_X$
+
+#### Estimation
+
+- Sample mean: $\bar{X}_n=\frac{1}{n}\sum X_i \to \mu_X$
+- Sample covariance: $\bar{Q}_n = \frac{1}{n-1} \sum_i (X_i - \bar{X}_n)(X_i - \bar{X}_n)^T \to Q_X$
+- unbiased estimate: $E(\bar{X}_n)=\mu_X, E(\bar{Q}_n)=Q_X$
+
+#### Central limit theorem (CLT)
+
+$\sqrt{n}(\bar{X}_n - \mu_X) \to \mathcal{N}(0,Q_X)$ in distribution
+
+- $\bar{X}_n$ can be approximated by gaussian distribution $\mathcal{N}(\mu_X,\frac{Q_X}{n})$
+- Covariance  $E[(\bar{X}_n - \mu_X)(\bar{X}_n - \mu_X)^T] \approx \frac{Q_X}{n}$
+- MSE of the estimate $\bar{X}_n$ is $trace(\frac{Q_X}{n})$
+
+### Monte Carlo Integration
+
+- $E(\phi(X)) = \frac{1}{n}\sum\limits_i \phi(X_i)$
+- $P(X \in A) = E(1_A(X)),
+  1_A(X) =  
+  \left\{
+  \begin{aligned}
+  & 1, \text{if } X \in A \\
+  & 0, \text{otherwise}
+  \end{aligned}
+  \right.
+  $
+
+$X_i \sim f_X(x)$ are i.i.d samples
+
+### Importance sampling
+
+Estimate $E_g(X)=\sum_x xg(x)$ with sample from $f(x)$ distribution
+$$
+E_g(\phi(X)) = \sum_x \phi(x) g(x)  =\sum_x (\phi(x)\frac{g(x)}{f(x)})f(x) = E_f(\phi(x)\frac{g(x)}{f(x)}) \approx \frac{1}{N}\sum_i \frac{g(X_i)}{f(X_i)}\phi(X_i)
+$$
+> $f(x)$ and $g(x)$ are both known
+
+Benefits:
+
+- possibly reduce final **sample variance**
+- $f$ is easier to evaluate and sample than $g$
+
+Application
+
+- $\displaystyle \int g(x) dx = \int g(x) \frac{1}{f(x)} f(x) dx = E_f(g(x) \frac{1}{f(x)}) \approx \frac{1}{N} \sum_i g(X_i)\frac{1}{f(X_i)}$
