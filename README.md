@@ -17,6 +17,8 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
 - [Note8: Mujoco Tutorial](notes/lecture8/Lecture8.pdf)
 - [Note9: probability Review for Reinforcement Learning](notes/lecture9/lecture9.pdf)
 - [Note10: Markov Decision Process for Reinforcement Learning](notes/lecture10/lecture10.pdf)
+- [Note11: Policy Gradients for Reinforcement Learning](notes/lecture11/lecture11.pdf)
+- Note12: TODO
 - ...
 
 > Github Markdown preview has very poor support for LaTeX, so if you want to view and edit markdown file, it is recommended to clone and view the notes locally (e.g. Typora).
