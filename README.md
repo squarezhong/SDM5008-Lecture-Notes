@@ -18,7 +18,8 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
 - [Note9: probability Review for Reinforcement Learning](notes/lecture9/lecture9.pdf)
 - [Note10: Markov Decision Process for Reinforcement Learning](notes/lecture10/lecture10.pdf)
 - [Note11: Policy Gradients for Reinforcement Learning](notes/lecture11/lecture11.pdf)
-- Note12: TODO
+- [Note12: Value Estimation](notes/lecture12/lecture12.pdf)
+- Note13: TODO
 - ...
 
 > Github Markdown preview has very poor support for LaTeX, so if you want to view and edit markdown file, it is recommended to clone and view the notes locally (e.g. Typora).
@@ -28,3 +29,13 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
     Official course website
 - [MEE5114-Sp23 Advanced Control for Robotics](https://www.wzhanglab.site/teaching/advanced-control-for-robotics-sp23/)
     Last year's course website
+
+## LICENSE
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
