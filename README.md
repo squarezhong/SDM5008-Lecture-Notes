@@ -20,8 +20,7 @@ Lecture notes for SDM5008 Advanced Control for Robotics by Prof. ZHANG Wei at SU
 - [Note11: Policy Gradients for Reinforcement Learning](notes/lecture11/lecture11.pdf)
 - [Note12: Value Estimation](notes/lecture12/lecture12.pdf)
 - [Note13: Baseline and Actor-Critic](notes/lecture13/lecture13.pdf)
-- Note14: PPO (TODO)
-- ...
+- [Note14: Proximal Policy Optimization](notes/lecture14/lecture14.pdf)
 
 > Github Markdown preview has very poor support for LaTeX, so if you want to view and edit markdown file, it is recommended to clone and view the notes locally (e.g. Typora).
 
